@@ -17,6 +17,7 @@ void ATankAIController::Tick(float DeltaTime){
     }
 }
 
+
 void ATankAIController::BeginPlay(){
 
     Super::BeginPlay();
@@ -30,6 +31,7 @@ void ATankAIController::BeginPlay(){
             *(PlayerTank->GetName()));
     }
 }
+
 
 
 ATank* ATankAIController::GetControlledTank() const{
