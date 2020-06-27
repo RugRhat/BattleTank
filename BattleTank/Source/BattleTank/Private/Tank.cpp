@@ -2,6 +2,8 @@
 
 
 #include "TankAimingComponent.h"
+#include "TankBarrel.h"
+#include "Projectile.h"
 #include "Tank.h"
 
 // Sets default values
@@ -12,14 +14,6 @@ ATank::ATank()
 
 	// No need to protect pointers as added at construction
 	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(FName("Aiming Component"));
-
-	// Fixes bug of new tank barrel disappearing
-	// Body = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TankBody"));
-    // static ConstructorHelpers::FObjectFinder<UStaticMesh> TankMesh(TEXT("StaticMesh'/Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel'"));
-    // if(TankMesh.Object)
-    // {
-    //     Body->SetStaticMesh(TankMesh.Object);
-    // }
 }
 
 
@@ -42,6 +36,7 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void ATank::SetBarrelReference(UTankBarrel* BarrelToSet){
 
 	TankAimingComponent->SetBarrelReference(BarrelToSet);
+	Barrel = BarrelToSet;
 }
 
 
@@ -56,3 +51,16 @@ void ATank::AimAt(FVector HitLocation){
 	TankAimingComponent->AimAt(HitLocation, LaunchSpeed);
 }
 
+
+void ATank::Fire(){
+
+	if(!Barrel){return;}
+
+	// Spawn projectile at socket location on the barrel
+	auto Projectile = GetWorld()->SpawnActor<AProjectile>(
+		ProjectileBlueprint, 
+		Barrel->GetSocketLocation(FName("Projectile")),
+		Barrel->GetSocketRotation(FName("Projectile")));
+
+	Projectile->LaunchProjectile(LaunchSpeed);
+}
