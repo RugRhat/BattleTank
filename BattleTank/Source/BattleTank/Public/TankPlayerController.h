@@ -22,7 +22,9 @@ public:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
 	
-	ATank* GetControlledTank() const;	
+protected:
+	UFUNCTION(BlueprintCallable, Category = "Setup")
+	ATank* GetControlledTank() const;
 
 private:
 	// Start moving tank barrel so should hits crosshair world intersection.
