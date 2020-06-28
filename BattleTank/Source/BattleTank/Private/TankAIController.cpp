@@ -14,6 +14,8 @@ void ATankAIController::Tick(float DeltaTime){
     
     if(PlayerTank){
         // TO DO move towards player
+        MoveToActor(PlayerTank, AcceptanceRadius);    // TO DO check radius is in cm
+
         ControlledTank->AimAt(PlayerTank->GetActorLocation());
         ControlledTank->Fire(); // TO DO Don't fire every frame
     }
