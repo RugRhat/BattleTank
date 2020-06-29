@@ -51,6 +51,12 @@ bool UTankAimingComponent::IsBarrelMoving(){
 	return !BarrelForward.Equals(AimDirection, 0.01);
 }
 
+
+EFiringState UTankAimingComponent::GetFiringState() const{
+	return FiringState;
+}
+
+
 void UTankAimingComponent::AimAt(FVector HitLocation){
 
 	if(!ensure(Barrel)){return;}
@@ -67,6 +73,7 @@ void UTankAimingComponent::AimAt(FVector HitLocation){
 		MoveBarrelTowards(AimDirection);
 	}
 }
+
 
 void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection){
 
@@ -104,3 +111,4 @@ void UTankAimingComponent::Fire(){
 		LastFireTime = GetWorld()->GetTimeSeconds();
 	}
 }
+
