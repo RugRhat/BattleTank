@@ -1,0 +1,117 @@
+[
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\BattleTank.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\BattleTank.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\BattleTank.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\BattleTankGameModeBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\BattleTankGameModeBase.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\Projectile.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\Tank.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\TankAIController.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\TankAimingComponent.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\TankBarrel.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\TankMovementComponent.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\TankPlayerController.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\TankTrack.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Private\\\\TankTurret.cpp",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\Projectile.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\Tank.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\TankAIController.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\TankAimingComponent.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\TankBarrel.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\TankMovementComponent.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\TankPlayerController.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\TankTrack.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\sketc\\\\Documents\\\\PORTFOLIO\\\\Projects\\\\Battle Tank\\\\BattleTank\\\\Source\\\\BattleTank\\\\Public\\\\TankTurret.h",
+		"command": "cl.exe @\"C:\\Users\\sketc\\Documents\\PORTFOLIO\\Projects\\Battle Tank\\BattleTank\\.vscode\\compileCommands_BattleTank\\BattleTank.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]
